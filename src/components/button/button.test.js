@@ -8,5 +8,6 @@ test("Button works", () => {
   const { getByText } = render(<Button>Test</Button>);
   const buttonNode = getByText("Test");
   fireEvent.click(buttonNode);
-  expect(buttonNode.textContent).toBe("Toggled");
+  expect(buttonNode).toBeInTheDocument();
+  expect(buttonNode.textContent).toEqual("Toggled");
 });

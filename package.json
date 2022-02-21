@@ -19,7 +19,9 @@
       "\\.(css|less|sass|scss)$": "<rootDir>/__mocks__/styleMock.js",
       "\\.(gif|ttf|eot|svg)$": "<rootDir>/__mocks__/fileMock.js"
     },
-    "setupFilesAfterEnv": ["<rootDir>/src/jest-setup.js"]
+    "setupFilesAfterEnv": [
+      "<rootDir>/src/jest-setup.js"
+    ]
   },
   "dependencies": {
     "@emotion/css": "^11.7.1",
@@ -35,8 +37,8 @@
     "@babel/plugin-proposal-class-properties": "^7.4.4",
     "@babel/preset-env": "^7.4.5",
     "@babel/preset-react": "^7.0.0",
-    "@testing-library/jest-dom": "^5.16.2",
-    "@testing-library/react": "^8.0.1",
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "11.2.5",
     "babel-eslint": "^10.0.1",
     "eslint": "^5.16.0",
     "eslint-config-react-minimal": "^1.0.0",
